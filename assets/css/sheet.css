@@ -1,6 +1,8 @@
-body {
-  overflow-y: auto;
+/* hide scroll bar, but can still scroll */
+::-webkit-scrollbar {
+	display: none;
 }
+
 thead {
 	word-break: break-word;
 	#longey {
