@@ -1,3 +1,13 @@
+body {
+  overflow-y: auto;
+}
+thead {
+	word-break: break-word;
+	#longey {
+		word-break: break-all;
+	}
+}
+
 .navbar {
 	background-color: #a3b18a;
 }
