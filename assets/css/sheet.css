@@ -1,11 +1,16 @@
+/* font */
 span, table {
 	font-family: 'Montserrat', sans-serif;
 }
-
 /* hide scroll bar, but can still scroll */
 ::-webkit-scrollbar {
 	display: none;
 }
+
+.navbar {
+	background-color: #a3b18a;
+}
+
 
 thead {
 	word-break: break-word;
@@ -14,11 +19,18 @@ thead {
 	}
 }
 
-.navbar {
-	background-color: #a3b18a;
-}
-
 span {
 	display: table;
 	margin: 0 auto;
+}
+
+a {
+	color: grey;
+}
+a:link {
+	color: grey;
+	text-decoration: none;
+}
+a:visited {
+  color: grey;
 }
