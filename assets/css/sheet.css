@@ -1,3 +1,7 @@
+span, table {
+	font-family: 'Montserrat', sans-serif;
+}
+
 /* hide scroll bar, but can still scroll */
 ::-webkit-scrollbar {
 	display: none;
