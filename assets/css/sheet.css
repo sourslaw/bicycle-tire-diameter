@@ -2,6 +2,7 @@
 span, table {
 	font-family: 'Montserrat', sans-serif;
 }
+
 /* hide scroll bar, but can still scroll */
 ::-webkit-scrollbar {
 	display: none;
@@ -38,4 +39,12 @@ a:visited {
 a:hover {
 	color: #a3b18a;
 	text-decoration: none;
+}
+
+/* media */
+@media (max-width: 768px) {
+	.container{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
 }
