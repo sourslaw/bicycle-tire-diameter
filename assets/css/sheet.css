@@ -11,6 +11,9 @@ span, table {
 	background-color: #a3b18a;
 }
 
+.container {
+	/* border: 1px solid; */
+}
 
 thead {
 	word-break: break-word;
@@ -24,13 +27,15 @@ span {
 	margin: 0 auto;
 }
 
-a {
-	color: grey;
-}
+/* footer link */
 a:link {
 	color: grey;
 	text-decoration: none;
 }
 a:visited {
   color: grey;
+}
+a:hover {
+	color: #a3b18a;
+	text-decoration: none;
 }
