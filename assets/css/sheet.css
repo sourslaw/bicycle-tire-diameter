@@ -12,20 +12,21 @@ span, table {
 	background-color: #a3b18a;
 }
 
-.container {
-	/* border: 1px solid; */
+/* table title */
+span {
+	display: table;
+	margin: 0 auto;
 }
-
+/* table head */
 thead {
 	word-break: break-word;
 	#longey {
 		word-break: break-all;
 	}
 }
-
-span {
-	display: table;
-	margin: 0 auto;
+/* table body */
+.tbl-center {
+	text-align: center;
 }
 
 /* footer link */
@@ -46,5 +47,6 @@ a:hover {
 	.container{
 		padding-left: 0 !important;
 		padding-right: 0 !important;
+		font-size: 14px;
 	}
 }
